@@ -12,6 +12,7 @@ and successfully mitigated using iptables to block the attacker IP.
 3. same Lan network
 
 ##Steps 
+
 *Ping Test and Nmap:*
 I ran a Ping test to see if the host is up and ran nmap port scan on the host IP to see open ports. 
 
