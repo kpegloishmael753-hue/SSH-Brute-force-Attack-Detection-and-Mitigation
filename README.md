@@ -15,6 +15,7 @@ and successfully mitigated using iptables to block the attacker IP.
 
 *Ping Test and Nmap:*
 I ran a Ping test to see if the host is up and ran nmap port scan on the host IP to see open ports. 
+![Ping test and nmap scan](./ping_test_nmap.JPG)
 
 *Wazuh logging:*
 I started Wazuh-agent to send alerts to SIEM dashboard.
