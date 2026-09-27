@@ -35,9 +35,9 @@ Checked the auth.log to see failed ssh login attempts from the attacker IP in re
 wazuh dashboard visualized the failed attempts. and the successful login 
 **Results:** Numerous failed ssh login attempts on wazuh dashboard and finally two successful logins. Note: two because I logged out and logged in again from attacker machine to confirm persistent access
 ![wazuh detection](Dashboard_failed_attempts.jpg)
-![wazuh detection](Dashboard_successful_attempts.heic)
+![wazuh detection](Dashboard_successful_attempst.JPG)
 
 *Mitigation:* Blocked attacker IP with iptables
 **Results:** Attacker IP blocked with iptables. To confirm, I ran Hydra again with the attacker machine and it showed connection timeout. 
 ![attacker IP Dropped](Attacker_IP_Dropped.JPG)
-![Hyrda failed after I blocked the attacker IP](Hydra_failed.JPG)
+![Hyrda failed after I blocked the attacker IP](hydra_failed.JPG)
