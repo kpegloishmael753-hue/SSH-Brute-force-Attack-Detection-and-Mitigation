@@ -39,3 +39,5 @@ wazuh dashboard visualized the failed attempts. and the successful login
 ![wazuh detection](Dashboard_successful_attempts.heic)
 
 *Mitigation:* Blocked attacker IP with iptables
+**Results:** Attacker IP blocked with iptables and to confirm, I ran Hydra again with the attacker machine and it showed connection timeout. 
+
