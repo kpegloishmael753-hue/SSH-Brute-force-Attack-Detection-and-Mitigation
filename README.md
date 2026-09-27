@@ -22,9 +22,10 @@ I ran a Ping test to see if the host is up and ran nmap port scan on the host IP
 I started Wazuh-agent to send alerts to SIEM dashboard.
 
 *Attack:* Ran Hydra SSH brute-force against the Victim IP address and found the correct password. I used the correct password found by Hydra to gain access to the victim machine via SSH
-**Results:** Hydra found password, [password found and SSH login successful 
+**Results:** Hydra attacking, Hydra found password, [password found and SSH login successful 
 ![Hydra attack](Hydra_attack.JPG)
 ![Hydra attack](Hydra_complete.JPG)
+![Hydra attack](Access_to_host.JPG)
 
 *Detection:*
 Checked the auth.logs to see failed ssh login attempts from the attacker IP in real-time and also a successful login from the Attacker IP after the numerous failed ones 
