@@ -31,7 +31,7 @@ I started Wazuh-agent to send alerts to SIEM dashboard.
 Checked the auth.log to see failed ssh login attempts from the attacker IP in real-time and also few successful logins from the Attacker IP after the numerous failed ones 
 **Results:** Multiple failed login attempts from the Attacker IP and finally few Successful logins. Note: Few successful logins because I logged out of the host from the attacker machine and logged in back to confirm persistence access, not multiple brute-force hits
 ![auth.log detection](Auth_log.JPG)
-![auth.log detection](Auth.log_sucess.JPG)
+![auth.log detection](Auth.log_success.JPG)
 
 wazuh dashboard visualized the failed attempts. and the successful login 
 
