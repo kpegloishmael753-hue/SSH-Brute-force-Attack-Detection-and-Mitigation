@@ -39,5 +39,5 @@ wazuh dashboard visualized the failed attempts. and the successful login
 
 *Mitigation:* Blocked attacker IP with iptables
 **Results:** Attacker IP blocked with iptables. To confirm, I ran Hydra again with the attacker machine and it showed connection timeout. 
-![attacker IP Dropped](Attacker_IP_Dropped.JPG)
+![attacker IP Dropped](Attacker_IP_blocked.JPG)
 ![Hyrda failed after I blocked the attacker IP](hydra_failed.JPG)
