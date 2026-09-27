@@ -1,6 +1,5 @@
 # Mini SOC lab: SSH-Brute-Force-Attack-Detection-and-Mitigation
-I built a mini SOC lab to simulate a real-world attack. 
-I used two laptops on the same network, 
+I built a mini SOC lab to simulate a real-world attack. I used two laptops on the same network, 
 one as attacker machine running Hydra for SSH brute-force
 and the other as the victim(Ubuntu VM). The attack was detected in real-time
 using Wazuh SIEM via auth.log monitoring, 
