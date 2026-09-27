@@ -23,7 +23,7 @@ I started Wazuh-agent to send alerts to SIEM dashboard.
 
 *Attack:* Ran Hydra SSH brute-force against the Victim IP address and found the correct password. I used the correct password found by Hydra to gain access to the victim machine via SSH
 **Results:** Hydra attacking, Hydra found password, [password found and SSH login successful 
-![Hydra attack](Hydra_attack.JPG)
+![Hydra attack](Hydra_attacking.JPG)
 ![Hydra attack](Hydra_complete.JPG)
 ![Hydra attack](Access_to_host.JPG)
 
